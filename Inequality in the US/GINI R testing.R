@@ -1,17 +1,3 @@
----
-title: "Inequality in the United States"
-author: "Ari Boyarsky"
-date: "October 4, 2016"
-output: html_document
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
-## Using R and GGPlot to Map Inequality
-
-```{r, echo=TRUE}
 rm(list = ls())
 
 library(ggplot2)
@@ -59,18 +45,3 @@ g
 
 gini
 
-
-```
-
-The above choropleth shows the GINI level within the United States, differentiates by State. The lighter the color fill, the higher the GINI. GINI is measured on a 0 to 1 scale, where 0 is a theoretically equal wealth and income distribution. While 1 represents a society where all wealth and income is controlled by a single holder. 
-
-We can use R to gain more information on GINI distributions, for example:
-
-```{r, echo=TRUE}
-summary(gini)
-```
-This analysis shows us the minimum U.S. State GINI, as well as the maximum. Furthermore, we can see the mean U.S. GINI is `0.4675`. Of course, this is different from the U.S. GINI. 
-
-## References
-
-U.S. Census Bureau, 2014 American Community Survey 1-Year Estimates
