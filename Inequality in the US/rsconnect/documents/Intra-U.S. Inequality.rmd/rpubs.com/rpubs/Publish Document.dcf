@@ -1,7 +1,0 @@
-name: Publish Document
-account: rpubs
-server: rpubs.com
-appId: https://api.rpubs.com/api/v1/document/222237/29f369838292469fb124adaa62263e98
-bundleId: https://api.rpubs.com/api/v1/document/222237/29f369838292469fb124adaa62263e98
-url: http://rpubs.com/ariboyarsky/222237
-when: 1477585667.01611
